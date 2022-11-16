@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+
+
+    background: #FFFFFF;
+
+}
+
+/* navbar */
+#nav1{
+    display: flex;
+    position: absolute;
+    right: 3rem;
+ 
+
+}
+#d1{
+    
+    display: flex;
+    width: 17rem;
+    justify-content: center;
+    background-color: hwb(0deg 96% 4%);
+    
+    align-items: center;
+    
+}
+#nav1 img {
+    height: 25px;
+    color: purple;
+    cursor: pointer;
+    
+}
+.ser{
+    border: none;
+    outline: none;
+        margin: 1rem;
+        text-align: center;
+        height: 20px;
+    background-color: hwb(0deg 96% 4%);
+    
+    
+    /* d2 */
+}
+
+#d2{
+    border: 2px;
+    
+    
+    display: flex;
+    color: green;
+    cursor: pointer;
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 12rem;
+}
+#d2 img{
+    padding-right: 7px;
+}
+
+
+/* logo */
+#logo{
+
+    
+    top: 10px;
+    width: 300px;
+    height: 265px;
+    background: url(1.png) no-repeat center;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    margin: auto;
+}
+
+
+/* 2 navbar */
+
+#nav2{
+    display: flex; 
+     justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+  
+    padding: 10px;
+    margin-top: 1rem;
+}
+#nav2 ul{
+    /* text-decoration: none; */
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    
+}
+#nav2 ul a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#nav2 ul li {
+    padding-right: 5rem ;
+    
+}
+#nav2 span img{
+
+    padding-right: 5rem ;
+    height: 25px;
+    cursor: pointer;
+
+}
+
+
+/* head bar img */
+
+#headbar{
+    height: 422px;
+    /* height: auto; */
+
+    /* width: 100vw; */
+    background: url('Mask group-5.png') no-repeat center center;
+}
+
+#headbar span{
+   
+   
+ 
+
+    font-family: 'Futura Md BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    /* or 62% */
+    
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    
+}
+
+#spn1{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    width: 11en;
+    width: 11em;
+    padding-top: 1em;
+    color: #D8887C;
+
+}
+#spn2{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    width: 11en;
+    width: 11em;
+    padding-left: 1em;
+    color: #D8887C;
+
+}
+#spn3{
+    
+    font-family: 'Futura Bk BT';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+padding-left: 4em;
+margin-top: 1em;
+
+    color: black;
+}
+
+
+/* text our creation  */
+
+#spntxt img{
+
+    display: block;
+    margin: auto;
+   height: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* 3 images cousel */
+
+#img3{
+    display: flex;
+    column-count: 3;
+    
+}
+#img3 span img{
+    width: 26.3rem;
+    height:  25rem;
+}
+
+/* text under img 3 */
+
+#imtxt{
+    margin-top: -4rem;
+    margin-bottom:  8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+.txt1{
+    background-color: antiquewhite;
+    height: 13rem;
+    width: 20rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.imbtn{
+    align-self: center;
+    color: white;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    background-color: #c18f36;;
+}
+
+
+/* 3 flex my st */
+
+#myst{
+   width: 100%;
+    height: 30rem;
+    margin-bottom: 6rem;
+    background: url('Frame-1.png') no-repeat;
+}
+#mystimg1  img{
+    position: relative;
+    top: -2rem;
+    height: 34rem;
+    left: 35rem;
+}
+#mystimg2 img
+{
+    position: absolute;
+   margin-top: 3rem;
+    left: 10rem;
+}
+
+#mystimg3{
+    position: absolute;
+    left: 9rem;
+    margin-top: 4rem;
+}
+
+/* hr line */
+#hr img
+{
+    padding: 2rem;
+    display: block;
+    margin: auto;
+}
+
+/* instah=gram img */
+#instaimg  img{
+
+padding: 2rem;
+    display: block;
+    margin: auto;
+}
+
+
+/* 5img  */
+#img5{
+    display: flex;
+    height: 14rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+.img5p{
+    height: 13rem;
+
+}
+
+/* ig btn */
+#imigbtn{
+    display: block;
+    margin: auto;
+    color: white;
+    border: none;
+    width: 12rem;
+    height: 2rem;
+    background-color: #c18f36;;
+    cursor: pointer;
+}
+
+/* footer */
+
+
+footer  img{
+    /* height: 10rem; */
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+footer  input{
+    border: none;
+    width: 18rem;
+    border-bottom: 1px solid gray ;
+    padding: 1rem;
+    outline: none;
+    position: absolute;
+    left: 20rem;
+    /* margin-top: 11rem; */
+    background: transparent;
+}
+
+footer input[type=text]
+{
+    margin-top: 10rem;
+
+
+}
+footer input[type=email]
+{
+    margin-top: 14rem;
+
+
+}
+footer nav ul {
+    position: relative;
+    top: -7rem;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+footer nav ul li img{
+    cursor: pointer;
+    top: -1rem;
+    position: relative;
+
+
+}
+a{
+    color : black;
+    text-decoration: none;
+
+}
+li{
+    list-style: none ;
+}
